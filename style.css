@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e0e8ff url(images/pattern-background-desktop.svg) no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  margin: 0 auto;
+}
+
+body .container .card {
+  width: 400px;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+body .container .card .hero-img img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+body .container .card .hero-text {
+  padding: 30px;
+}
+
+body .container .card .hero-text h1 {
+  margin-bottom: 20px;
+}
+
+body .container .card .hero-text p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #7280a7;
+}
+
+body .container .card .hero-text .hero-content {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+body .container .card .hero-text .hero-content .plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .card .hero-text .hero-content .plan div {
+  margin-left: 20px;
+}
+
+body .container .card .hero-text .hero-content .plan div h5 {
+  font-weight: 900;
+}
+
+body .container .card .hero-text .hero-content .plan div p {
+  margin: 0;
+}
+
+body .container .card .hero-text .hero-content a {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 700;
+}
+
+body .container .card .hero-text .hero-content a:hover {
+  color: rgba(56, 41, 224, 0.7);
+}
+
+body .container .card .hero-text .button {
+  font-weight: 500;
+  font-size: .9rem;
+  background-color: #3829e0;
+  border-radius: 10px;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+body .container .card .hero-text .button:hover {
+  background-color: rgba(56, 41, 224, 0.7);
+}
+
+body .container .card .hero-text a {
+  color: #7280a7;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body .container .card .hero-text a:hover {
+  color: #1f2f56;
+}
+
+@media only screen and (max-width: 768px) {
+  body .container .card {
+    width: 330px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
